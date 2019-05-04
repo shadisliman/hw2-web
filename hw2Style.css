@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://hdqwalls.com/download/hacker-wide-1920x1080.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.box{
+    width: 225px;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    text-align: center;
+    line-height: 2px;
+    margin: auto;
+    margin-top: 35%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    border-radius: 5%;
+}
+
+.box h1{
+    margin-top: -10%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 20;
+    line-height: 10px;
+}
+

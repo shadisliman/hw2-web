@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="hw2Style.css">
+    <title>Luxury Club</title>
+</head>
+
+<body>
+    <div class="box">
+        <script src="hw2_q1_encode.js"></script>
+        <script src="hw2_q1_support_functions.js"></script>
+        <p id="display_string"></p>
+        <script>
+            random_string = makeid(8);
+            document.getElementById("display_string").innerHTML = random_string;
+        </script>
+        <form action="/action_page.php">
+            <input type="text" name="userinput" value="">
+            <button type="button" onclick="checkIfCorrect(userinput.value, encode(random_string))">Check!</button>
+        </form>
+        <!-- <p id="disp_answer"></p> Reveal this to see the answer --> 
+        <script>
+            document.getElementById("disp_answer").innerHTML = encode(random_string);
+        </script>
+    </div>
+</body>
+
+</html>
