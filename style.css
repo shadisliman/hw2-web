@@ -1,0 +1,80 @@
+body{
+
+    background: url(https://previews.123rf.com/images/iunewind/iunewind1403/iunewind140300100/26576728-numbers-background.jpg);
+}
+
+
+
+* {
+    font-family: Imprima;
+}
+
+
+
+.container-fluid {
+    background-image: url('http://www.webweaver.nu/clipart/img/web/backgrounds/children/hello-kitty-blue.jpg');
+    background-repeat: repeat;
+    height: 100%;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+    background-color: rgb(225, 241, 133);
+}
+
+.shadowed {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+hr {
+    border-top: 1px solid #525252;
+}
+
+select,
+input {
+    max-width: 600px;
+    font-size: 20px !important;
+}
+
+select option {
+    font-size: 20px;
+}
+
+.pink {
+    background-color: blanchedalmond;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.green {
+    background-color: #5c5;
+}
+
+.padded {
+    padding: 30px;
+}
+
+/*animations*/
+@keyframes anim {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+
